@@ -6,7 +6,7 @@ const authorizeBusiness = require('../middleware/businessAuth')
 
 router.post("/register",businessController.register);
 router.post("/login",businessController.login);
-router.post("/addLostItem",authorizeBusiness.authorizeBusiness,businessController.addLostItem);
+router.post("/addFoundItem",authorizeBusiness.authorizeBusiness,businessController.addFoundItem);
 
 
 

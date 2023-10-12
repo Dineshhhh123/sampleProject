@@ -46,7 +46,7 @@ class businessController {
             res.status(500).json([{ message: "internal server" }, { error }])
         }
     };
-    addLostItem = async (req, res) => {
+    addFoundItem = async (req, res) => {
         const itemData = req.body;
         const { businessId } = req;
         try {
