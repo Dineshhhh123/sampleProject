@@ -1,0 +1,30 @@
+"use strict";
+
+module.exports = {
+  user: require("./user"),
+  restrictedDomains: require("./restrictedDomainsSchema"),
+  campaign: require("./campaignSchema"),
+  campaignBriefDetails: require("./campaignBriefDetailsSchema"),
+  campaignPostingDetails: require("./campaignPostingDetailsSchema"),
+  creatorV2: require("./creatorV2"),
+  creator: require("./creator"),
+  creatorSchemaTaxonomy: require("./creatorSchemaTaxonomy"),
+  creatorOnboarding: require("./creatorOnboarding"),
+  creatorV3: require("./creatorV3"),
+  userVerifyToken: require("./userVerifyToken"),
+  userSession: require("./userSession"),
+  otp: require("./otpSchema"),
+  brand: require("./brand"),
+  brandCategories: require("./brandCategories"),
+  adCategories: require("./adCategories"),
+  config: require("./configSchema"),
+  brandCollaboratorImages: require("./brandCollaboratorImages"),
+  risingStar: require("./risingStar"),
+  shortListCreatorsSchema: require("./shortListCreatorsSchema"),
+  collabs: require('./collabs'),
+  campaignRequest: require('./campaignRequest'),
+  staticRolesAndPrivileges: require("./staticRolePrivileges"),
+  addDeliverable:require('./addDelivearableSchema'),
+  deliverableHistory:require('./addDelivearableHistorySchema'),
+  cmpMgmtCreators: require('./campaignMgmtCreatorsSchema')
+};
